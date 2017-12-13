@@ -1,5 +1,9 @@
 # Authenticator
 
+## Demo
+
+http://www.cqoicebordel.net/authenticator/demo/
+
 ## What is it ?
 
 It's a webapp allowing you to see your TOTP (two factors authentication) codes easily.
