@@ -2,7 +2,7 @@
 
 ## Demo
 
-http://www.cqoicebordel.net/authenticator/demo/
+[http://www.cqoicebordel.net/authenticator/demo/]
 
 ## What is it ?
 
@@ -28,13 +28,13 @@ It was kind of cumbersome to open the right app in my phone each time I wanted t
 ## How was it build ?
 
 This project was hacked together in a couple of days, copy/pasting a lot of code. So I have a lot of acknowledgments to do.
-* First, I started with https://github.com/qoomon/google-authenticator-webapp, I removed all the QRCode things, fixed a couple of bugs (the hexToDec for example), removed all unnecessary CSS (removing the dependancy to bootstrap), removed all unnecessary JS, removed the animations that were a performance hog, made it dynamic to follow the settings.js file, added a tiny bit of accessibility, etc.
+* First, I started with [https://github.com/qoomon/google-authenticator-webapp], I removed all the QRCode things, fixed a couple of bugs (the hexToDec for example), removed all unnecessary CSS (removing the dependancy to bootstrap), removed all unnecessary JS, removed the animations that were a performance hog, made it dynamic to follow the settings.js file, added a tiny bit of accessibility, etc.
 * Doing so, I used a few library that I stripped as most as possible (including the libs that were in the original project) :
-	* https://kimmobrunfeldt.github.io/progressbar.js/ for the circle progress bar
-	* http://caligatio.github.com/jsSHA/ for calculating the SHA (note that only v1.6.0 seems to work. I didn't investigate why : it works :) )
-	* A tiny bit of code from https://github.com/nextcloud/passman for doing a better TOTP algorithm
-	* https://gist.github.com/ghalimi/4525548 for correcting a bug
-* Used icon from https://www.iconfinder.com/icons/87859/authenticator_icon#size=128
+	* [https://kimmobrunfeldt.github.io/progressbar.js/] for the circle progress bar
+	* [http://caligatio.github.com/jsSHA/] for calculating the SHA (note that only v1.6.0 seems to work. I didn't investigate why : it works :) )
+	* A tiny bit of code from [https://github.com/nextcloud/passman] for doing a better TOTP algorithm
+	* [https://gist.github.com/ghalimi/4525548] for correcting a bug
+* Used icon from [https://www.iconfinder.com/icons/87859/authenticator_icon#size=128]
 
 ## What not to do with this ?
 
